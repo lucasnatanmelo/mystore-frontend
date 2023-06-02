@@ -1,0 +1,28 @@
+mat-card{
+  padding: 1rem;
+}
+
+.home .title {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.home .subtitle {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.home .subtitle li {
+  margin-top: 10px;
+}
+
+.home .subtitle li {
+  text-decoration: none;
+}
+
+.home .logo.small {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+}

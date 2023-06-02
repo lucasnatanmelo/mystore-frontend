@@ -1,0 +1,44 @@
+<mat-card class="custom-card">
+  <mat-card-title class="title">
+    Excluir Produto
+  </mat-card-title>
+  <form class="form-container">
+    <mat-form-field>
+      <input 
+        matInput 
+        placeholder="Nome" 
+        [value]="product.name"
+        name="name"
+        disabled
+      >
+    </mat-form-field>
+    <mat-form-field>
+      <input 
+        matInput 
+        placeholder="Preço (R$)"
+        [value]="product.price"
+        name="price"
+        disabled
+      >
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Categoria</mat-label>
+      <mat-select [(ngModel)]="product.category" name="category" disabled>
+        <mat-option value="Eletrônicos">Eletrônicos</mat-option>
+        <mat-option value="Eletrodomésticos">Eletrodomésticos</mat-option>
+        <mat-option value="Moda e Acessórios">Moda e Acessórios</mat-option>
+        <mat-option value="Casa e Decoração">Casa e Decoração</mat-option>
+        <mat-option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div class="form-buttons">
+      <button mat-raised-button (click)="deleteProduct()" color="warn">
+        Excluir
+      </button>
+      <button mat-raised-button class="second-button" (click)="cancel()">
+        Cancelar
+      </button>
+    </div>
+  </form>
+</mat-card>
+

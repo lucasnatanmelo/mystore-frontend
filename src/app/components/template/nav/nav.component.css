@@ -1,0 +1,34 @@
+.sidenav {
+  background-color: #3F51B5;
+  width: 200px;
+}
+
+.sidenav .column {
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  text-decoration: none;
+  padding: 10px;
+  /* font-weight: bold;  */
+  transition: background-color 0.3s; 
+}
+
+.sidenav .column:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+  cursor: pointer; 
+}
+
+.sidenav .column i {
+  padding-right: 10px;
+}
+
+.sidenav .column .description {
+  margin-top: 3px;
+  margin-left: 4px;
+  color: #FFF;
+}
+
+.content { 
+  padding: 16px;
+  background-color: #FFF;
+}

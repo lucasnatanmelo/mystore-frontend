@@ -1,0 +1,26 @@
+.custom-card {
+  padding: 1rem; /* Espaçamento interno desejado */
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-buttons button {
+  width: 100px;
+}
+
+.form-buttons .second-button {
+  margin-left: 1rem; 
+}
