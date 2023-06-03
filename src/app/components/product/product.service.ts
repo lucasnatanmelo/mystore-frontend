@@ -12,8 +12,11 @@ import { EMPTY, Observable } from 'rxjs';
 })
 export class ProductService {
 
+  // Heroku backend
+  baseUrl = "https://mycontacts-backend.herokuapp.com/products/"
+
   // Django backend
-  baseUrl = "http://127.0.0.1:8000/products/"
+  // baseUrl = "http://127.0.0.1:8000/products/"
 
   // Node backend
   // baseUrl = "http://localhost:3001/products/"
