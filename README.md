@@ -25,9 +25,9 @@ Execute `ng build` para construir o projeto. As builds finais serão armazenadas
 
 ## Imagens ilustrativas
 
-![Home Main](src\assets\readme.imgs\home.png)
-![Home Produto](src\assets\readme.imgs\novo_produto.png)
-![Novo Produtos](src\assets\readme.imgs\produtos.png)
+![Home Main](src/assets/readme.imgs/home.png)
+![Home Produto](src/assets/readme.imgs/novo_produto.png)
+![Novo Produtos](src/assets/readme.imgs/produtos.png)
 
 ## Documentação oficial
 
