@@ -7,13 +7,13 @@
     fixedTopGap="64"
   >
     <div class="nav-list">
-      <div class="column" routerLink="/">
+      <div class="column" routerLink="/" (click)="setActiveButton(0)" [class.ativo]="isButtonActive(0)">
         <i class="material-icons">
           home
         </i>
         <span class="description">Início</span>
       </div>
-      <div class="column" routerLink="/products">
+      <div class="column" routerLink="/products" (click)="setActiveButton(1)" [class.ativo]="isButtonActive(1)">
         <i class="material-icons">
           storefront
         </i>

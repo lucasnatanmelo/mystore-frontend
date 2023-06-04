@@ -12,13 +12,13 @@ import { EMPTY, Observable } from 'rxjs';
 })
 export class ProductService {
 
-  // Heroku backend
-  baseUrl = "https://mycontacts-backend.herokuapp.com/products/"
+  // Heroku - Django backend
+  baseUrl = "https://my-store-backend.herokuapp.com/products/"
 
-  // Django backend
+  // Local - Django backend
   // baseUrl = "http://127.0.0.1:8000/products/"
 
-  // Node backend
+  // Local - Node backend
   // baseUrl = "http://localhost:3001/products/"
 
   constructor(
@@ -47,7 +47,8 @@ export class ProductService {
   read(): Observable<Product[]> {
     return this.http.get<Product[]>(this.baseUrl).pipe(
       tap((obj) => {
-        console.log("RECEIVING OBJECT: ", { obj })
+        // console.log("RECEIVING data: ", { obj })
+        obj
       }),
       catchError((e) => this.errorHandler(e))
     );
