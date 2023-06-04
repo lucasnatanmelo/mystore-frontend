@@ -1,27 +1,34 @@
-# Frontend
+# MyContacts - Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+Este projeto foi criado com a versão 16.0.2 do [Angular CLI](https://github.com/angular/angular-cli).
 
-## Development server
+## Requisitos básicos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Node v18.12.1
+- Angular CLI 16.0.2
 
-## Code scaffolding
+## Instalação de dependências de desenvolvimento
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Instale o Angular CLI com `npm install -g @angular/cli` e em seguida, execute `npm install` no diretório raiz do projeto para instalar todas as dependências de desenvolvimento necessárias.
+
+## Servidor de desenvolvimento
+
+Execute `ng serve` ou `npm start` para iniciar um servidor de desenvolvimento. Acesse `http://localhost:4200/`. A aplicação será recarregada automaticamente se você modificar algum dos arquivos de origem.
+
+## Criação de novos componentes e serviços
+
+Execute `ng generate component nome-do-componente` para gerar um novo componente. Você também pode usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Execute `ng build` para construir o projeto. As builds finais serão armazenadas no diretório `dist/`.
 
-## Running unit tests
+## Imagens ilustrativas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Home Main](src\assets\readme.imgs\home.png)
+![Home Produto](src\assets\readme.imgs\novo_produto.png)
+![Novo Produtos](src\assets\readme.imgs\produtos.png)
 
-## Running end-to-end tests
+## Documentação oficial
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para mais informações sobre o Angular CLI, use `ng help` ou consulte a página de [ Visão geral e referência de comandos do Angular CLI.](https://angular.io/cli).
