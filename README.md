@@ -3,7 +3,7 @@
 Este projeto simula uma aplicação de estoque de produtos para uma loja, sendo possível realizar operações de criação, leitura, atualização e deleção de itens (CRUD). Foi criado com a versão 16.0.2 do [Angular CLI](https://github.com/angular/angular-cli), sendo hospedada no servidor da [Vercel](https://vercel.com) e utiliza como backend a API desenvolvida em [Django](https://github.com/lucasnatanmelo/mystore-backend), hospedada no servidor [Heroku](https://heroku.com).
 
 ## Link para acesso
-- https://mystore-vercel.vercel.app
+- https://mystore-fe.vercel.app
 
 ## Requisitos básicos
 
